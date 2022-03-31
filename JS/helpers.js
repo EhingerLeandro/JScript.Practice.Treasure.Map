@@ -24,10 +24,18 @@ else if(distance <60){
 else if ( distance < 100){
   return "Warm ";
 }
+else if (distance < 150){
+  return "Almost warm"
+}
+
 else if (distance < 200){
   return "Cold";
 }
-else {
+else if (distance <275){
   return "Freezing ";
+}
+
+else {
+  return "Extremly Freezing"
 }
 }
